@@ -53,7 +53,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+    #The function's arguments collects the raw input and reads the data into a dataframe
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
